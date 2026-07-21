@@ -33,7 +33,7 @@ AEP-Energy-Consumption-Forecasting/
 │
 ├── AEP_hourly.csv
 ├── AEP-Energy-Consumption-Forecasting.py
-├── AEP-Forecast.py
+├── inference.py
 ├── AEP-One-Week-Forecast.csv
 ├── AEP-SARIMA-Model.pkl
 ├── requirements.txt
@@ -174,7 +174,7 @@ This script will:
 ## Forecast Future Consumption
 
 ```bash
-python AEP-Forecast.py
+python inference.py
 ```
 
 Example
